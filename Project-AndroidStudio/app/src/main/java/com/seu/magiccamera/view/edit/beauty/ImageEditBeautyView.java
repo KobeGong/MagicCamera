@@ -23,9 +23,6 @@ public class ImageEditBeautyView extends ImageEditFragment {
 	private TwoLineSeekBar mWhiteBubbleSeekBar;
 	private boolean mIsSmoothed = false;
 	private boolean mIsWhiten = false;
-	public ImageEditBeautyView(Context context) {
-		super(context);
-	}
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -1,0 +1,5 @@
+[arm64-v8a] Compile++      : MagicBeautify <= MagicJni.cpp
+[arm64-v8a] Compile++      : MagicBeautify <= BitmapOperation.cpp
+[arm64-v8a] Compile++      : MagicBeautify <= Conversion.cpp
+[arm64-v8a] Compile++      : MagicBeautify <= MagicBeautify.cpp
+[arm64-v8a] SharedLibrary  : libMagicBeautify.so

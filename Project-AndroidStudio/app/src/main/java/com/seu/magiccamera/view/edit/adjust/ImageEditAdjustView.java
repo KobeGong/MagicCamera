@@ -1,6 +1,5 @@
 package com.seu.magiccamera.view.edit.adjust;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,11 +30,7 @@ public class ImageEditAdjustView extends ImageEditFragment {
 	private ImageView mLabel;
 	private TextView mVal;
 	private LinearLayout mLinearLayout;
-	
-	public ImageEditAdjustView(Context context) {
-		super(context);
-	}
-	
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {

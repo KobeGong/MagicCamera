@@ -8,10 +8,6 @@ public abstract class ImageEditFragment extends Fragment{
 	protected Context mContext;
 	protected onHideListener mOnHideListener;
 
-	public ImageEditFragment(Context context){
-		this.mContext = context;
-	}
-	
 	public void onHide(){
 		if(isChanged()){
 

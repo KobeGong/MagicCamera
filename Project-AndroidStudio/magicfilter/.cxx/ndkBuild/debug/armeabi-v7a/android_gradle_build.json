@@ -1,0 +1,46 @@
+{
+  "buildFiles": [
+    "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk",
+    "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "MagicBeautify-debug-armeabi-v7a": {
+      "buildCommand": "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/lib /Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libMagicBeautify.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "MagicBeautify",
+      "files": [
+        {
+          "src": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/MagicJni.cpp",
+          "flags": "-target armv7-none-linux-androideabi18 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/kobe-mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni -DANDROID_NDK -D_DEBUG -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/beautify/MagicBeautify.cpp",
+          "flags": "-target armv7-none-linux-androideabi18 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/kobe-mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni -DANDROID_NDK -D_DEBUG -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/bitmap/BitmapOperation.cpp",
+          "flags": "-target armv7-none-linux-androideabi18 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/kobe-mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni -DANDROID_NDK -D_DEBUG -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/bitmap/Conversion.cpp",
+          "flags": "-target armv7-none-linux-androideabi18 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/kobe-mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni -DANDROID_NDK -D_DEBUG -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        }
+      ],
+      "output": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libMagicBeautify.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

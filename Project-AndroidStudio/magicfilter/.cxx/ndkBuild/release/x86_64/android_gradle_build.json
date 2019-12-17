@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk",
+    "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "MagicBeautify-release-x86_64": {
+      "buildCommand": "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/lib /Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/obj/local/x86_64/libMagicBeautify.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "MagicBeautify",
+      "files": [
+        {
+          "src": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/beautify/MagicBeautify.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/kobe-mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O2 -DNDEBUG -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/kobe-mac/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni -DANDROID_NDK, -D_DEBUG -DANDROID -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        }
+      ],
+      "output": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/obj/local/x86_64/libMagicBeautify.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cppCompilerExecutable": "/Users/kobe-mac/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,6 +1,5 @@
 package com.seu.magiccamera.view.edit.filter;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,10 +9,6 @@ import com.seu.magiccamera.R;
 import com.seu.magiccamera.view.edit.ImageEditFragment;
 
 public class ImageEditFilterView extends ImageEditFragment {
-	
-	public ImageEditFilterView(Context context) {
-		super(context);
-	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,

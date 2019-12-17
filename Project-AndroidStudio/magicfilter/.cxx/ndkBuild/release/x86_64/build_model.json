@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio",
+      "sdkFolder": "/Users/kobe-mac/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates",
+      "gradleModulePathName": ":magicfilter",
+      "moduleRootFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter",
+      "makeFile": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/.cxx",
+      "cxxFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx",
+      "ndkFolder": "/Users/kobe-mac/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "21.0.6011959-rc2",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/lib",
+    "objFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/obj/local",
+    "jsonFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release",
+    "gradleBuildOutputFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 18,
+  "cxxBuildFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release/x86_64",
+  "jsonFile": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release/x86_64/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/cxx/release/x86_64",
+  "objFolder": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/build/intermediates/ndkBuild/release/obj/local/x86_64",
+  "buildCommandFile": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release/x86_64/build_command.txt",
+  "buildOutputFile": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release/x86_64/build_output.txt",
+  "modelOutputFile": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release/x86_64/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release/x86_64/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/kobe-mac/Downloads/MagicCamera/Project-AndroidStudio/magicfilter/.cxx/ndkBuild/release/x86_64/compile_commands.json"
+}

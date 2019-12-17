@@ -1,0 +1,5 @@
+[armeabi-v7a] Compile++ thumb: MagicBeautify <= MagicJni.cpp
+[armeabi-v7a] Compile++ thumb: MagicBeautify <= BitmapOperation.cpp
+[armeabi-v7a] Compile++ thumb: MagicBeautify <= Conversion.cpp
+[armeabi-v7a] Compile++ thumb: MagicBeautify <= MagicBeautify.cpp
+[armeabi-v7a] SharedLibrary  : libMagicBeautify.so
